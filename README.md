@@ -5,7 +5,7 @@ It should handle dynamic content with grace, as it only runs when the webpage up
 
 Before the fix
 
-![Before the fix](https://github.com/JennaScvl/Firefox-TransFlag-Fix/blob/main/transflag%20fix%20before.jpg?raw=true)
+![Before the fix](https://github.com/JennaScvl/Firefox-TransFlag-Fix/blob/main/transflag%20fix%20before%202.jpg?raw=true)
 
 After the fix.
 
