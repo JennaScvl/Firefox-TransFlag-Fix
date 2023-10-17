@@ -4,7 +4,7 @@ This script is intended to be run on Firefox with TamperMonkey.
 It should handle dynamic content with grace, as it only runs when the webpage updates. This also means that it works on dynamic content, and in an efficient manner.
 
 Before the fix
-![What is this](transflag fix before.jpg)
+![alt text](https://github.com/JennaScvl/Firefox-TransFlag-Fix/blob/main/transflag%20fix%20after.jpg?raw=true)
 
 After the fix.
 ![What is this](transflag fix after.jpg)
