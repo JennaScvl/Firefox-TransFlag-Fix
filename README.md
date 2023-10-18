@@ -3,6 +3,8 @@ The transgender flag emoji displays as a white flag followed by the transgender 
 
 This script is intended to be run on Firefox with TamperMonkey.
 
+To install, click here: https://github.com/JennaScvl/Firefox-TransFlag-Fix/raw/main/Transgender%20emoji%20fix.user.js
+
 It should handle dynamic content with grace, as it only runs when the webpage updates. This also means that it works on dynamic content, and in an efficient manner.
 
 Before the fix
