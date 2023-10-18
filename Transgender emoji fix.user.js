@@ -35,13 +35,17 @@
                     newNode.innerHTML = node.nodeValue.split("🏳️‍⚧️").join('<img src="data:image/png;base64,' + base64Image + '" alt="🏳️‍⚧️" style="width: 1em; height: 1em;" />');
                     node.parentNode.replaceChild(newNode, node);
                 }
+                if (node.nodeValue.includes("🏳️⚧️")) {
+                    const newNode = document.createElement('span');
+                    newNode.innerHTML = node.nodeValue.split("🏳️⚧️").join('<img src="data:image/png;base64,' + base64Image + '" alt="🏳️⚧️" style="width: 1em; height: 1em;" />');
+                    node.parentNode.replaceChild(newNode, node);
+                }
             } else {
                 for (let child of node.childNodes) {
                     processNode(child);
                 }
             }
         }
-
         processNode(document.body);
     }
 
